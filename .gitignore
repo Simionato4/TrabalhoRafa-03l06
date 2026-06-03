@@ -1,0 +1,26 @@
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Credenciais reais - NUNCA enviar ao GitHub
+include/config.h
+mqtt_bridge/.env
+
+# Banco de dados SQLite gerado em runtime
+mqtt_bridge/*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
